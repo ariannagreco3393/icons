@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+header {
+    padding: 1rem;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+.filter {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.icon {
+    width: calc(100% / 5 - 2rem);
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+}
